@@ -1,7 +1,7 @@
 
 
 int reverse(int x){ 
-    long result=0;
+    long long result=0;
     int temp=x;
     while(temp!=0){
         result=(result*10)+(temp%10);
